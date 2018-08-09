@@ -1,3 +1,5 @@
+
+
 # aws-sdk-flow-decls
 [![circle][circle-image]][circle-url]
 [![npm][npm-image]][npm-url]
@@ -7,6 +9,10 @@
 [![Apache License, Version 2.0][license-image]][license-url]
 
 Flow type declarations for AWS SDK
+
+## Note: Should not be used with newer AWS SDK versions
+
+This module is not updated with the latest AWS SDK interfaces and is no longer needed at all, since. the AWS SDK itself will provide the types needed for Flow to understand the interfaces.
 
 ## Usage
 ```sh
