@@ -8,6 +8,11 @@
 
 Flow type declarations for AWS SDK
 
+## Note: Should not be used with newer AWS SDK versions
+This module is no longer needed at all, since the current AWS SDK will provide the types out of box, in order to make Flow  understand the interfaces.
+
+This module is not updated with the latest AWS SDK interfaces and will cause Flow errors with several newer APIs, like the `AWS.DynamoDB.DocumentClient`.
+
 ## Usage
 ```sh
 npm install --save-dev aws-sdk-flow-decls
